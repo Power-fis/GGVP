@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Квадратые уравнения</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="app">
+		<div id="formules">
+			<label>
+				x<sup>2</sup>+
+				<input type="number" v-model.number='b'> x +
+				<input type="number" v-model.number='c'> = 0
+			</label>
+			<label>D = {{D}}</label>
+			<label>{{solve}}</label>
+		</div>
+		<div id="plot"></div>
+	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

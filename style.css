@@ -1,0 +1,53 @@
+body,html,#app{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+body,#app,#plot{
+	display: flex;
+	justify-content: center;
+
+	align-items: center;
+}
+
+#plot, #formules{
+	width: 45%;
+	height: 90%;
+	margin: 20px;
+}
+
+#plot{
+	font-size: 30px;
+}
+
+#formules{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+input{
+	width: 60px;
+	margin-top: 0;
+	font-size: 30px;
+}
+
+label{
+	width: 100%;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+label.input{
+	background: blue;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+	-webkit-appearance:none;
+	margin: 0;
+}
+
