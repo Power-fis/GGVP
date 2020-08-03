@@ -36,8 +36,4 @@ vm.$watch(function () {return[this.b, this.c]},function(){
 	}
 });
 
-functionPlot({
-			target: '#plot',
-			data:[{fn:'x^2+x+2'}],
-			grid:true
 		});
